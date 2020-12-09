@@ -1,0 +1,38 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #ffa342;
+}
+
+p {
+  color: #7c0ccc;
+  font-size: 24px;
+}
+
+button {
+  color: #7c0ccc;
+  background: #ffa342;
+  font-weight: bolder;
+  font-size: 28px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.buttons {
+  background: lightblue;
+  width: 80%;
+  height: 150px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+

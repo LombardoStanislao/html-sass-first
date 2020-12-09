@@ -1,0 +1,44 @@
+$primaryColor: #7c0ccc;
+$secondaryColor: #ffa342;
+$colorBackground: lightblue;
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: $secondaryColor;
+}
+
+p {
+    color: $primaryColor;
+    font-size: 24px;
+}
+
+button {
+    color: $primaryColor;
+    background: $secondaryColor;
+    font-weight: bolder;
+    font-size: 28px;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.buttons {
+    background: $colorBackground;
+    width: 80%;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
